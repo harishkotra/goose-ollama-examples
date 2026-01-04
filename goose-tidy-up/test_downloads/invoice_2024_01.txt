@@ -1,0 +1,7 @@
+INVOICE #1023
+Date: 2024-01-15
+To: John Doe
+From: AWS Web Services
+Amount: $405.00
+Service: EC2 Instances
+Please remit payment by EOM.

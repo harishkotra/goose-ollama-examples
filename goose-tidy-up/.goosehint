@@ -1,0 +1,6 @@
+# Safety Rules for Tidy-Up Agent
+
+- NEVER delete files. Only MOVE (`mv`) them.
+- IF a destination file already exists, do not overwrite it. Append a counter (e.g., `file_1.txt`) or timestamp.
+- ONLY operate within the directory specified by the user. Do not explore parent directories (`..`).
+- ALWAYS create the category folder (e.g., `Finance/`) before moving a file into it.

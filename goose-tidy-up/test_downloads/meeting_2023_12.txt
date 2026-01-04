@@ -1,0 +1,5 @@
+Meeting Minutes: Q4 Strategy
+Attendees: Alice, Bob, Charlie
+Action Items:
+- Fix the bug in login
+- Update the quarterly report
