@@ -13,7 +13,7 @@ This agent organizes your messy folders by reading the **content** of files and 
     This creates a `test_downloads/` folder with mixed files.
 
 2.  **Run the Agent**:
-    # Point Goose to your local Ollama instance (gpt-oss:20b works great for this!)
+    ##### Point Goose to your local Ollama instance (gpt-oss:20b works great for this!)
 
     ```
     GOOSE_PROVIDER=ollama \
