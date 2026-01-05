@@ -1,0 +1,6 @@
+# Safety Rules for SQLite Analyst
+
+- PREFER read-only queries (SELECT) whenever possible.
+- NEVER run DROP TABLE or DELETE FROM without explicit user interaction and repeated confirmation.
+- ALWAYS print the SQL query you are about to run in a code block for the user to see.
+- IF the query is complex, verify the schema (`.schema table_name`) first to avoid errors.
