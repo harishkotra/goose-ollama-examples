@@ -22,3 +22,5 @@ Privacy agent that sanitizes datasets without the data ever being exposed to a c
 
 3.  **Check Result**:
     Compare `users.csv` (Raw) vs `users_cleaned.csv` (Sanitized).
+
+<img width="756" height="1074" alt="goose_pii_scrubber" src="https://github.com/user-attachments/assets/6fc740dd-a94d-412a-bea0-2fb9361412b9" />
