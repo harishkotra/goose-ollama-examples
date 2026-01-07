@@ -22,3 +22,6 @@ An agent that documents your legacy/spaghetti code entirely locally.
 
 3.  **Check Result**:
     Open `legacy_math.py` to see the newly added DocStrings!
+
+<img width="755" height="717" alt="goose_code_archaeologist" src="https://github.com/user-attachments/assets/f8ab73bc-82a2-468c-86c1-c43181b8227d" />
+<img width="719" height="992" alt="goose_code_archaeologist_1" src="https://github.com/user-attachments/assets/1c1516eb-c1fd-4df3-b401-1abfdfbee438" />
