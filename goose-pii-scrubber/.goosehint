@@ -1,0 +1,8 @@
+# Safety Rules for PII Scrubber
+
+- NEVER print the content of the CSV to the console/chat.
+- ALWAYS use python scripting to process the data. Do NOT edit the CSV line-by-line manually.
+- When generating the script:
+    - Mask emails like `a***@example.com`.
+    - Hash phones or use `***-***-****`.
+    - Do NOT mask non-PII fields like `id` or `tier`.

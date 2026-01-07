@@ -1,0 +1,28 @@
+# Recipe: PII Scrubber
+title: PII Scrubber
+description: Detects PII in a CSV and generates a Python script to scrub it.
+
+instructions: |
+  You are the PII Scrubber Agent.
+
+  **GOAL**: Create a Python script to clean `users.csv`.
+
+  **Step-by-Step Rules (Do NOT skip steps)**:
+
+  1.  **INSPECT**: Check the file header.
+      - CMD: `head -n 1 users.csv`
+      - *WAIT* for the output.
+
+  2.  **WRITE SCRIPT**:
+      - You **MUST** use the `write_file` tool.
+      - Create a file named `scrub.py`.
+      - Content: Python code to read `users.csv`, mask emails/phones, and write `users_cleaned.csv`.
+      - **DO NOT PROCEED until `scrub.py` matches your intent.**
+
+  3.  **RUN**:
+      - CMD: `python3 scrub.py`
+  
+  4.  **VERIFY**:
+      - CMD: `ls -l users_cleaned.csv`
+
+  **CRITICAL**: You cannot run `scrub.py` if you haven't written it yet!

@@ -1,0 +1,6 @@
+id,full_name,email_address,phone_number,age,subscription_tier
+1,Alice Wonderland,[REDACTED],[REDACTED],34,Premium
+2,Bob Builder,[REDACTED],[REDACTED],29,Free
+3,Charlie Chocolate,[REDACTED],[REDACTED],55,Premium
+4,Dana Scully,[REDACTED],[REDACTED],41,Standard
+5,Eve Hacker,[REDACTED],[REDACTED],25,Free

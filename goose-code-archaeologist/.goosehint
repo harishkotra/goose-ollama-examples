@@ -1,0 +1,6 @@
+# Safety Rules for Code Archaeologist
+
+- NEVER modify the logic of the code. Only add comments or DocStrings.
+- PRESERVE the original indentation and style.
+- USE Google-style DocStrings ("""Args: ... Returns: ...""").
+- If you don't understand the function, add a comment `# TODO: Unclear logic` instead of guessing.
